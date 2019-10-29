@@ -1,16 +1,17 @@
-# Difference Of Squares
+# Isogram
 
-Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
+Determine if a word or phrase is an isogram.
 
-The square of the sum of the first ten natural numbers is
-(1 + 2 + ... + 10)² = 55² = 3025.
+An isogram (also known as a "nonpattern word") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.
 
-The sum of the squares of the first ten natural numbers is
-1² + 2² + ... + 10² = 385.
+Examples of isograms:
 
-Hence the difference between the square of the sum of the first
-ten natural numbers and the sum of the squares of the first ten
-natural numbers is 3025 - 385 = 2640.
+- lumberjacks
+- background
+- downstream
+- six-year-old
+
+The word *isograms*, however, is not an isogram, because the s repeats.
 
 * * * *
 
@@ -28,16 +29,16 @@ the test file.
 
 Run the tests from the exercise directory using the following command:
 
-    ruby difference_of_squares_test.rb
+    ruby isogram_test.rb
 
 To include color from the command line:
 
-    ruby -r minitest/pride difference_of_squares_test.rb
+    ruby -r minitest/pride isogram_test.rb
 
 
 ## Source
 
-Problem 6 at Project Euler [http://projecteuler.net/problem=6](http://projecteuler.net/problem=6)
+Wikipedia [https://en.wikipedia.org/wiki/Isogram](https://en.wikipedia.org/wiki/Isogram)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

@@ -1,16 +1,30 @@
-# Difference Of Squares
+# Minesweeper
 
-Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
+Add the numbers to a minesweeper board.
 
-The square of the sum of the first ten natural numbers is
-(1 + 2 + ... + 10)² = 55² = 3025.
+Minesweeper is a popular game where the user has to find the mines using
+numeric hints that indicate how many mines are directly adjacent
+(horizontally, vertically, diagonally) to a square.
 
-The sum of the squares of the first ten natural numbers is
-1² + 2² + ... + 10² = 385.
+In this exercise you have to create some code that counts the number of
+mines adjacent to a square and transforms boards like this (where `*`
+indicates a mine):
 
-Hence the difference between the square of the sum of the first
-ten natural numbers and the sum of the squares of the first ten
-natural numbers is 3025 - 385 = 2640.
+    +-----+
+    | * * |
+    |  *  |
+    |  *  |
+    |     |
+    +-----+
+
+into this:
+
+    +-----+
+    |1*3*1|
+    |13*31|
+    | 2*2 |
+    | 111 |
+    +-----+
 
 * * * *
 
@@ -28,16 +42,12 @@ the test file.
 
 Run the tests from the exercise directory using the following command:
 
-    ruby difference_of_squares_test.rb
+    ruby minesweeper_test.rb
 
 To include color from the command line:
 
-    ruby -r minitest/pride difference_of_squares_test.rb
+    ruby -r minitest/pride minesweeper_test.rb
 
-
-## Source
-
-Problem 6 at Project Euler [http://projecteuler.net/problem=6](http://projecteuler.net/problem=6)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

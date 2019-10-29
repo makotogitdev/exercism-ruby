@@ -1,16 +1,15 @@
-# Difference Of Squares
+# Word Count
 
-Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
+Given a phrase, count the occurrences of each word in that phrase.
 
-The square of the sum of the first ten natural numbers is
-(1 + 2 + ... + 10)² = 55² = 3025.
+For example for the input `"olly olly in come free"`
 
-The sum of the squares of the first ten natural numbers is
-1² + 2² + ... + 10² = 385.
-
-Hence the difference between the square of the sum of the first
-ten natural numbers and the sum of the squares of the first ten
-natural numbers is 3025 - 385 = 2640.
+```text
+olly: 2
+in: 1
+come: 1
+free: 1
+```
 
 * * * *
 
@@ -28,16 +27,16 @@ the test file.
 
 Run the tests from the exercise directory using the following command:
 
-    ruby difference_of_squares_test.rb
+    ruby word_count_test.rb
 
 To include color from the command line:
 
-    ruby -r minitest/pride difference_of_squares_test.rb
+    ruby -r minitest/pride word_count_test.rb
 
 
 ## Source
 
-Problem 6 at Project Euler [http://projecteuler.net/problem=6](http://projecteuler.net/problem=6)
+This is a classic toy problem, but we were reminded of it by seeing it in the Go Tour.
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

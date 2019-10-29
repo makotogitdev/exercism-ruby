@@ -1,16 +1,11 @@
-# Difference Of Squares
+# Acronym
 
-Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
+Convert a phrase to its acronym.
 
-The square of the sum of the first ten natural numbers is
-(1 + 2 + ... + 10)² = 55² = 3025.
+Techies love their TLA (Three Letter Acronyms)!
 
-The sum of the squares of the first ten natural numbers is
-1² + 2² + ... + 10² = 385.
-
-Hence the difference between the square of the sum of the first
-ten natural numbers and the sum of the squares of the first ten
-natural numbers is 3025 - 385 = 2640.
+Help generate some jargon by writing a program that converts a long name
+like Portable Network Graphics to its acronym (PNG).
 
 * * * *
 
@@ -28,16 +23,16 @@ the test file.
 
 Run the tests from the exercise directory using the following command:
 
-    ruby difference_of_squares_test.rb
+    ruby acronym_test.rb
 
 To include color from the command line:
 
-    ruby -r minitest/pride difference_of_squares_test.rb
+    ruby -r minitest/pride acronym_test.rb
 
 
 ## Source
 
-Problem 6 at Project Euler [http://projecteuler.net/problem=6](http://projecteuler.net/problem=6)
+Julien Vanier [https://github.com/monkbroc](https://github.com/monkbroc)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

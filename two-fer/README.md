@@ -1,16 +1,16 @@
-# Difference Of Squares
+# Two Fer
 
-Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
+`Two-fer` or `2-fer` is short for two for one. One for you and one for me.
 
-The square of the sum of the first ten natural numbers is
-(1 + 2 + ... + 10)² = 55² = 3025.
+```text
+"One for X, one for me."
+```
 
-The sum of the squares of the first ten natural numbers is
-1² + 2² + ... + 10² = 385.
+When X is a name or "you".
 
-Hence the difference between the square of the sum of the first
-ten natural numbers and the sum of the squares of the first ten
-natural numbers is 3025 - 385 = 2640.
+If the given name is "Alice", the result should be "One for Alice, one for me."
+If no name is given, the result should be "One for you, one for me."
+
 
 * * * *
 
@@ -28,16 +28,16 @@ the test file.
 
 Run the tests from the exercise directory using the following command:
 
-    ruby difference_of_squares_test.rb
+    ruby two_fer_test.rb
 
 To include color from the command line:
 
-    ruby -r minitest/pride difference_of_squares_test.rb
+    ruby -r minitest/pride two_fer_test.rb
 
 
 ## Source
 
-Problem 6 at Project Euler [http://projecteuler.net/problem=6](http://projecteuler.net/problem=6)
+[https://en.wikipedia.org/wiki/Two-fer](https://en.wikipedia.org/wiki/Two-fer)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
